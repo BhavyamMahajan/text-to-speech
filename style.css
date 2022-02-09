@@ -1,4 +1,3 @@
-/* Import Google Font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -78,29 +77,29 @@ form .row select::-webkit-scrollbar{
   width: 8px;
 }
 form .row select::-webkit-scrollbar-track{
-  background: #fff;
-}
-form .row select::-webkit-scrollbar-thumb{
-  background: #888;
-  border-radius: 8px;
-  border-right: 2px solid #ffffff;
-}
-form button{
-  height: 52px;
-  color: #fff;
-  font-size: 17px;
-  cursor: pointer;
-  margin-top: 10px;
-  background: #675AFE;
-  transition: 0.3s ease;
-}
-form button:hover{
-  background: #4534fe;
-}
-
-@media(max-width: 400px){
-  .wrapper{
-    max-width: 345px;
-    width: 100%;
+    background: #fff;
   }
-}
+  form .row select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #ffffff;
+  }
+  form button{
+    height: 52px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+    background: #675AFE;
+    transition: 0.3s ease;
+  }
+  form button:hover{
+    background: #4534fe;
+  }
+  
+  @media(max-width: 400px){
+    .wrapper{
+      max-width: 345px;
+      width: 100%;
+    }
+  }
